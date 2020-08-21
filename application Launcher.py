@@ -12,12 +12,12 @@ print("\tPython Editor\n")
 print(" 1.IDLE\t2.Juypter Notebook\n")
 print("\tmedia player\n")
 print(" 1.VLC\t2.window media player\n")
-
-print("\t\tExit\n")
+print( "\tFor Exit")
+print("1.Exit\t2.quit\n")
 while(True):
 
     app=input("Enter application name which you want to run : ")
-    if("Chrome"  in app) or ("CHROME" in app) or ("Google" in app):
+    if("Chrome"  in app) or ("CHROME" in app) or ("Google" in app)or ("chrome" in app):
         os.system("start Chrome")
     elif("Firefox" in app)or("FIREFOX" in app) or ("mozila" in app) or ("MOZILA" in app):
         os.system("start FireFox")
@@ -56,3 +56,4 @@ while(True):
         
     elif("exit" in app)or ("quit" in app):
         break
+
